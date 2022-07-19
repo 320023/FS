@@ -10,4 +10,3 @@ class Viewer(View):
 		img = open(r'backend\static\aaa.png', 'rb')
 		response = FileResponse(img)
 		return response
-		
